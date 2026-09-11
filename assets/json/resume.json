@@ -1,221 +1,135 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Mine Barnsongkit",
+    "label": "MS Computer Science Student, Columbia University",
+    "email": "sb5426@columbia.edu",
+    "url": "https://supmine.github.io",
+    "summary": "Computer Science master’s student on the Machine Learning track at Columbia University, with experience in computer vision, robotics, backend systems, and software engineering leadership. Expected graduation: December 2027.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "New York",
+      "region": "NY",
+      "countryCode": "US"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "supmine",
+        "url": "https://github.com/supmine"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "supanart-barnsongkit",
+        "url": "https://www.linkedin.com/in/supanart-barnsongkit/"
+      }
+    ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
-    },
-    {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "Columbia University",
+      "area": "Computer Science, Machine Learning track",
+      "studyType": "Master of Science (expected December 2027)",
+      "url": "https://www.columbia.edu/"
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
-      "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    },
-    {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "institution": "Chulalongkorn University",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering, First Class Honours",
+      "startDate": "2019-08",
+      "endDate": "2023-05",
+      "score": "3.73/4.00",
+      "courses": [
+        "Thesis: End-to-End Machine Learning Lifecycle Management Platform",
+        "Computer Vision",
+        "Pattern Recognition",
+        "Data Structures and Algorithms"
       ]
     }
   ],
-  "languages": [
+  "work": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "name": "Arise by INFINITAS",
+      "position": "Senior Software Engineer",
+      "location": "Bangkok, Thailand",
+      "startDate": "2024-05",
+      "endDate": "2026-08",
+      "summary": "Backend services for CLICX mobile banking at a subsidiary of Krungthai Bank.",
+      "highlights": [
+        "Led five engineers building onboarding and account-opening services using Go, Kafka, Redis, MongoDB, and PostgreSQL.",
+        "Owned deployment to Kubernetes with ArgoCD, go-live, monitoring with Prometheus and Grafana, and incident investigation.",
+        "Reduced onboarding API response latency from approximately 2 seconds to 20 milliseconds through caching and MongoDB index optimization."
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
     },
     {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "Protomate",
+      "position": "Software Engineer Team Lead",
+      "location": "Bangkok, Thailand",
+      "startDate": "2023-01",
+      "endDate": "2024-02",
+      "summary": "Connected, AI-enabled motorcycle helmets for rider safety.",
+      "highlights": [
+        "Led seven engineers across the smart helmet platform, Flutter app, and nRF-based remote control.",
+        "Managed requirements, timelines, and roadmap alignment with mechanical and electrical engineering leads.",
+        "Designed Bluetooth Classic and BLE connectivity, implemented Secure Boot, and integrated the app and remote with custom Android firmware."
+      ]
+    },
+    {
+      "name": "OxygenAI",
+      "position": "Machine Learning Engineer Intern",
+      "location": "Bangkok, Thailand",
+      "startDate": "2022-06",
+      "endDate": "2022-07",
+      "summary": "Computer-vision products for retail and smart-city applications.",
+      "highlights": [
+        "Researched object detection in fisheye images without dewarping, addressing lens distortion and varying object orientations.",
+        "Modified YOLOv5 with rotation-aware regression to correct bounding-box orientation."
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Rainfall Nowcasting on Thai DDS Radar Data",
+      "startDate": "2022-05",
+      "endDate": "2022-05",
+      "url": "https://supmine.github.io/projects/rainfall-nowcasting/",
+      "summary": "A real-time rainfall nowcasting system for Bangkok.",
+      "highlights": [
+        "Built a cloud pipeline and dashboard with Google Cloud Functions, Pub/Sub, Cloud Storage, TensorFlow, Folium, and Power BI.",
+        "Led optical flow, ConvLSTM, and RainNet modeling using TensorFlow and Keras; reported MSE below 0.001 on the project’s radar and wind data."
+      ]
+    },
+    {
+      "name": "Vehicle Detection and Counting",
+      "startDate": "2021-07",
+      "endDate": "2021-07",
+      "url": "https://github.com/supmine/vehicle-detection-counting",
+      "summary": "Individual study on vehicle detection, instance segmentation, and traffic-volume estimation from CCTV.",
+      "highlights": ["Built a Mask R-CNN system with PyTorch and OpenCV, reporting 60.2% box AP50 and 56.6% mask AP50."]
+    }
+  ],
+  "awards": [
+    {
+      "title": "World First Runner-up, Open Platform League",
+      "date": "2022",
+      "awarder": "RoboCup@Home 2022",
+      "summary": "Helped build Walkie, a household service robot. Implemented ViLD-based pre-labeling for open-vocabulary object detection and assisted with person tracking and pose estimation. Eleven teams from seven countries qualified for the final."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "keywords": ["PyTorch", "TensorFlow", "NumPy", "pandas", "Matplotlib", "OpenCV"]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["Python", "Go", "Kotlin", "Java", "C/C++", "SQL (PostgreSQL)", "TypeScript", "JavaScript"]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": ["FastAPI", "Gin", "Fiber", "Spring", "React", "Next.js", "Node.js"]
+    },
+    {
+      "name": "Developer Tools",
+      "keywords": ["Git", "Docker", "AWS", "Google Cloud Platform", "Claude Code", "Codex", "VS Code"]
     }
   ]
 }
