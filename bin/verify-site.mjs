@@ -31,8 +31,10 @@ for (const route of routes) {
 const cv = fs.readFileSync(path.join(root, "cv/index.html"), "utf8");
 for (const phrase of ["Columbia University", "Chulalongkorn University", "Arise by INFINITAS", "Protomate", "OxygenAI", "3.73"])
   assert(cv.includes(phrase), "Missing CV content: " + phrase);
-const originalResume = "https://docs.google.com/document/d/19I9SDOuQlDn5wYvORsMJrvoxBJNgmaHI/edit";
+const originalResume = "/assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf";
 assert(cv.includes(originalResume), "CV must link to the original resume");
 assert(fs.readFileSync(path.join(root, "index.html"), "utf8").includes(originalResume), "Home page must link to the original resume");
 assert(!fs.existsSync(path.join(root, "assets/pdf/mine-barnsongkit-resume.pdf")), "Generated resume must not exist in the published site");
-console.log("Verified 10 pages, local links and assets, CV content, and original resume links.");
+const pdf = fs.readFileSync(path.join(root, "assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf"));
+assert.equal(pdf.subarray(0, 5).toString(), "%PDF-");
+console.log("Verified 10 pages, local links and assets, CV content, and original resume PDF.");

@@ -23,7 +23,7 @@ Full name: Supanart Barnsongkit. Preferred name: Mine (nickname).
 
 Commit changes to main to rebuild and publish. The GitHub Actions workflow checks formatting, builds Jekyll, verifies internal links and CV content, and deploys through GitHub Pages. In repository Settings → Pages, the source should be GitHub Actions.
 
-The website content is based on the supplied résumé. The original one-page résumé remains in [Google Docs](https://docs.google.com/document/d/19I9SDOuQlDn5wYvORsMJrvoxBJNgmaHI/edit). Link to that document; do not rewrite or generate a replacement résumé unless explicitly requested.
+The website content is based on the supplied résumé. The one-page résumé is available at [assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf](assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf) and linked via `resume_url` in `_config.yml`.
 
 The About page uses al-folio's native about layout, Projects uses the original project-card includes, and the CV page uses the native al_folio_cv renderer. Follow AGENTS.md before editing. Personalization belongs in content and configuration; keep layouts, styling, and runtime behavior in the template's plugins.
 
