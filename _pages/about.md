@@ -5,7 +5,7 @@ permalink: /
 subtitle: MS Computer Science · <a href="https://www.columbia.edu/">Columbia University</a> · New York
 profile:
   align: right
-  image: mine_headshot.jpg
+  image: mine_headshot_3_4.jpg
   image_circular: false
   more_info: >
     <p>Columbia University</p>

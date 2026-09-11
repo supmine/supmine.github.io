@@ -15,7 +15,7 @@ Full name: Supanart Barnsongkit. Preferred name: Mine (nickname).
 | Individual projects           | \_projects/\*.md                                    |
 | Experience                    | \_pages/experience.md                               |
 | Repositories                  | \_pages/repositories.md and \_data/repositories.yml |
-| Profile photo                 | assets/img/mine_headshot.jpg                        |
+| Profile photo                 | assets/img/mine_headshot_3_4.jpg                    |
 | CV data                       | assets/json/resume.json                             |
 | Original one-page résumé link | resume_url in \_config.yml                          |
 | Social links                  | \_data/socials.yml                                  |
@@ -27,7 +27,7 @@ The website content is based on the supplied résumé. The original one-page ré
 
 The About page uses al-folio's native about layout, Projects uses the original project-card includes, and the CV page uses the native al_folio_cv renderer. Follow AGENTS.md before editing. Personalization belongs in content and configuration; keep layouts, styling, and runtime behavior in the template's plugins.
 
-The navigation order is About, Experience, Research & Projects, CV, Repositories. The About page uses the supplied headshot at assets/img/mine_headshot.jpg. Edit the profile.more_info block in \_pages/about.md to update the address section. To add publications later, populate \_bibliography/papers.bib and create a publications page. The existing demo publication, blog, and news content has been removed.
+The navigation order is About, Experience, Research & Projects, CV, Repositories. The About page uses the supplied headshot at assets/img/mine_headshot_3_4.jpg. Edit the profile.more_info block in \_pages/about.md to update the address section. To add publications later, populate \_bibliography/papers.bib and create a publications page. The existing demo publication, blog, and news content has been removed.
 
 ## Local development
 
