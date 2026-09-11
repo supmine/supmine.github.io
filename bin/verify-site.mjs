@@ -28,13 +28,21 @@ for (const route of routes) {
     if (fs.statSync(file).isDirectory()) assert(fs.existsSync(path.join(file, "index.html")), "Missing index for " + target);
   }
 }
+const home = fs.readFileSync(path.join(root, "index.html"), "utf8");
+const experience = fs.readFileSync(path.join(root, "experience/index.html"), "utf8");
 const cv = fs.readFileSync(path.join(root, "cv/index.html"), "utf8");
-for (const phrase of ["Columbia University", "Chulalongkorn University", "Arise by INFINITAS", "Protomate", "OxygenAI", "3.73"])
-  assert(cv.includes(phrase), "Missing CV content: " + phrase);
+
+for (const phrase of ["Columbia University", "Chulalongkorn University", "3.73"]) {
+  assert(home.includes(phrase), "Missing home content: " + phrase);
+}
+for (const phrase of ["Arise by INFINITAS", "Protomate", "OxygenAI"]) {
+  assert(experience.includes(phrase), "Missing experience content: " + phrase);
+}
+
 const originalResume = "/assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf";
 assert(cv.includes(originalResume), "CV must link to the original resume");
-assert(fs.readFileSync(path.join(root, "index.html"), "utf8").includes(originalResume), "Home page must link to the original resume");
+assert(home.includes(originalResume), "Home page must link to the original resume");
 assert(!fs.existsSync(path.join(root, "assets/pdf/mine-barnsongkit-resume.pdf")), "Generated resume must not exist in the published site");
 const pdf = fs.readFileSync(path.join(root, "assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf"));
 assert.equal(pdf.subarray(0, 5).toString(), "%PDF-");
-console.log("Verified 10 pages, local links and assets, CV content, and original resume PDF.");
+console.log("Verified 10 pages, local links and assets, site content, and original resume PDF.");
