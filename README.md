@@ -6,20 +6,21 @@ Website: https://supmine.github.io
 
 ## Edit the website
 
-| Content                      | File                                   |
-| ---------------------------- | -------------------------------------- |
-| Home and short bio           | \_pages/about.md                       |
-| Research & projects overview | \_pages/projects.md                    |
-| Individual projects          | \_projects/\*.md                       |
-| Work experience              | \_pages/experience.md                  |
-| CV data                      | assets/json/resume.json                |
-| Downloadable one-page résumé | assets/pdf/mine-barnsongkit-resume.pdf |
-| Social links                 | \_data/socials.yml                     |
-| Site settings                | \_config.yml                           |
+| Content                       | File                       |
+| ----------------------------- | -------------------------- |
+| Home and short bio            | \_pages/about.md           |
+| Research & projects overview  | \_pages/projects.md        |
+| Individual projects           | \_projects/\*.md           |
+| CV data                       | assets/json/resume.json    |
+| Original one-page résumé link | resume_url in \_config.yml |
+| Social links                  | \_data/socials.yml         |
+| Site settings                 | \_config.yml               |
 
 Commit changes to main to rebuild and publish. The GitHub Actions workflow checks formatting, builds Jekyll, verifies internal links and CV content, and deploys through GitHub Pages. In repository Settings → Pages, the source should be GitHub Actions.
 
-The content is based on the supplied September 2026 résumé. Reported project metrics are scoped to their original project evaluations. No publications, faculty affiliations, or work-authorization claims have been added. The public résumé uses Columbia email, GitHub, and LinkedIn as contact methods.
+The website content is based on the supplied résumé. The original one-page résumé remains in [Google Docs](https://docs.google.com/document/d/19I9SDOuQlDn5wYvORsMJrvoxBJNgmaHI/edit). Link to that document; do not rewrite or generate a replacement résumé unless explicitly requested.
+
+The About page uses al-folio's native about layout, Projects uses the original project-card includes, and the CV page uses the native al_folio_cv renderer. Follow AGENTS.md before editing. Personalization belongs in content and configuration; keep layouts, styling, and runtime behavior in the template's plugins.
 
 To add a headshot, upload your photo to assets/img/ and configure the profile block in \_pages/about.md. To add publications later, populate \_bibliography/papers.bib and create a publications page. The existing demo publication, blog, and news content has been removed.
 
