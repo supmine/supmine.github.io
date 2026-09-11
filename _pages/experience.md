@@ -56,4 +56,4 @@ Researched direct object detection in fisheye images for a company building comp
 | Frameworks       | FastAPI, Gin, Fiber, Spring, React, Next.js, Node.js                 |
 | Tools & cloud    | Git, Docker, AWS, Google Cloud Platform, Claude Code, Codex, VS Code |
 
-[View my original résumé]({{ site.resume_url }}) · [Contact me](mailto:sb5426@columbia.edu)
+[View my original resume]({{ site.resume_url }}) · [Contact me](mailto:sb5426@columbia.edu)

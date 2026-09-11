@@ -25,4 +25,4 @@ My experience connects applied ML with production engineering. I've worked on ob
 
 I earned my B.Eng. in Computer Engineering from **Chulalongkorn University**, graduating with First Class Honours and a 3.73/4.00 GPA. I'm interested in future PhD study and opportunities to contribute to machine learning and software engineering teams in the United States.
 
-[View my original one-page résumé]({{ site.resume_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [Email me](mailto:sb5426@columbia.edu)
+[View my original one-page resume]({{ site.resume_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [Email me](mailto:sb5426@columbia.edu)

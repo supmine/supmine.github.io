@@ -17,13 +17,13 @@ Full name: Supanart Barnsongkit. Preferred name: Mine (nickname).
 | Repositories                  | \_pages/repositories.md and \_data/repositories.yml     |
 | Profile photo                 | assets/img/mine_headshot_3_4.jpg                        |
 | CV PDF asset                  | assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf |
-| Original one-page résumé link | resume_url in \_config.yml                              |
+| Original one-page resume link | resume_url in \_config.yml                              |
 | Social links                  | \_data/socials.yml                                      |
 | Site settings                 | \_config.yml                                            |
 
 Commit changes to main to rebuild and publish. The GitHub Actions workflow checks formatting, builds Jekyll, verifies internal links and CV content, and deploys through GitHub Pages. In repository Settings → Pages, the source should be GitHub Actions.
 
-The website content is based on the supplied résumé. The CV page uses the PDF asset at [assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf](assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf), and the same file is linked via `resume_url` in `_config.yml`.
+The website content is based on the supplied resume. The CV page uses the PDF asset at [assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf](assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf), and the same file is linked via `resume_url` in `_config.yml`.
 
 The About page uses al-folio's native about layout, Projects uses the original project-card includes, and the CV page uses the native al_folio_cv renderer. Follow AGENTS.md before editing. Personalization belongs in content and configuration; keep layouts, styling, and runtime behavior in the template's plugins.
 
