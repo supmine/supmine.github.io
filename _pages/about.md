@@ -5,7 +5,7 @@ permalink: /
 subtitle: MS Computer Science · <a href="https://www.columbia.edu/">Columbia University</a> · New York
 profile:
   align: right
-  image: prof_pic.jpg # Original template placeholder; replace with your own photo.
+  image: mine_headshot.jpg
   image_circular: false
   more_info: >
     <p>Columbia University</p>
@@ -19,7 +19,7 @@ latest_posts:
   enabled: false
 ---
 
-I'm **Mine Barnsongkit**, a master's student in Computer Science at **Columbia University**, on the Machine Learning track, with expected graduation in December 2027. My interests span **computer vision, machine learning, and the software systems that bring models into the real world**.
+I'm **Supanart Barnsongkit**, and I go by **Mine**. I'm a master's student in Computer Science at **Columbia University**, on the Machine Learning track, with expected graduation in December 2027. My interests span **computer vision, machine learning, and the software systems that bring models into the real world**.
 
 My experience connects applied ML with production engineering. I've worked on object detection in fisheye images, rainfall nowcasting, vehicle segmentation, and robot perception. Before Columbia, I led software teams building digital banking services and connected motorcycle helmets in Thailand.
 

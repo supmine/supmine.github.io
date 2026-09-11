@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Mine
-middle_name:
+first_name: Supanart
+middle_name: "“Mine”" # Nickname displayed using the template's full-name heading.
 last_name: Barnsongkit
 contact_note: >
   The best way to reach me is at my Columbia email.
 description: >
-  Mine Barnsongkit is an MS Computer Science student at Columbia University, focused on machine learning, computer vision, and reliable software systems.
+  Supanart Barnsongkit, who goes by Mine, is an MS Computer Science student at Columbia University, focused on machine learning, computer vision, and reliable software systems.
 footer_text: >
   Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://jekyllrb.com/">Jekyll</a>. Hosted on GitHub Pages.
 keywords: Mine Barnsongkit, Supanart Barnsongkit, Columbia University, computer vision, machine learning, software engineering

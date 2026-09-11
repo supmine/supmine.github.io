@@ -1,8 +1,10 @@
-# Mine Barnsongkit — personal website
+# Supanart “Mine” Barnsongkit — personal website
 
 An academic and professional website for an MS Computer Science student at Columbia University, created using the [al-folio template](https://github.com/alshedivat/al-folio).
 
 Website: https://supmine.github.io
+
+Full name: Supanart Barnsongkit. Preferred name: Mine (nickname).
 
 ## Edit the website
 
@@ -13,7 +15,7 @@ Website: https://supmine.github.io
 | Individual projects           | \_projects/\*.md                                    |
 | Experience                    | \_pages/experience.md                               |
 | Repositories                  | \_pages/repositories.md and \_data/repositories.yml |
-| Profile photo placeholder     | assets/img/prof_pic.jpg                             |
+| Profile photo                 | assets/img/mine_headshot.jpg                        |
 | CV data                       | assets/json/resume.json                             |
 | Original one-page résumé link | resume_url in \_config.yml                          |
 | Social links                  | \_data/socials.yml                                  |
@@ -25,7 +27,7 @@ The website content is based on the supplied résumé. The original one-page ré
 
 The About page uses al-folio's native about layout, Projects uses the original project-card includes, and the CV page uses the native al_folio_cv renderer. Follow AGENTS.md before editing. Personalization belongs in content and configuration; keep layouts, styling, and runtime behavior in the template's plugins.
 
-The navigation order is About, Experience, Research & Projects, CV, Repositories. The About page uses the original template photo as a placeholder, as requested. Replace assets/img/prof_pic.jpg with your own photo; edit the profile.more_info block in \_pages/about.md to update the address section. To add publications later, populate \_bibliography/papers.bib and create a publications page. The existing demo publication, blog, and news content has been removed.
+The navigation order is About, Experience, Research & Projects, CV, Repositories. The About page uses the supplied headshot at assets/img/mine_headshot.jpg. Edit the profile.more_info block in \_pages/about.md to update the address section. To add publications later, populate \_bibliography/papers.bib and create a publications page. The existing demo publication, blog, and news content has been removed.
 
 ## Local development
 
