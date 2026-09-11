@@ -8,18 +8,18 @@ Full name: Supanart Barnsongkit. Preferred name: Mine (nickname).
 
 ## Edit the website
 
-| Content                       | File                                                |
-| ----------------------------- | --------------------------------------------------- |
-| Home and short bio            | \_pages/about.md                                    |
-| Research & projects overview  | \_pages/projects.md                                 |
-| Individual projects           | \_projects/\*.md                                    |
-| Experience                    | \_pages/experience.md                               |
-| Repositories                  | \_pages/repositories.md and \_data/repositories.yml |
-| Profile photo                 | assets/img/mine_headshot_3_4.jpg                    |
+| Content                       | File                                                    |
+| ----------------------------- | ------------------------------------------------------- |
+| Home and short bio            | \_pages/about.md                                        |
+| Research & projects overview  | \_pages/projects.md                                     |
+| Individual projects           | \_projects/\*.md                                        |
+| Experience                    | \_pages/experience.md                                   |
+| Repositories                  | \_pages/repositories.md and \_data/repositories.yml     |
+| Profile photo                 | assets/img/mine_headshot_3_4.jpg                        |
 | CV PDF asset                  | assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf |
-| Original one-page résumé link | resume_url in \_config.yml                          |
-| Social links                  | \_data/socials.yml                                  |
-| Site settings                 | \_config.yml                                        |
+| Original one-page résumé link | resume_url in \_config.yml                              |
+| Social links                  | \_data/socials.yml                                      |
+| Site settings                 | \_config.yml                                            |
 
 Commit changes to main to rebuild and publish. The GitHub Actions workflow checks formatting, builds Jekyll, verifies internal links and CV content, and deploys through GitHub Pages. In repository Settings → Pages, the source should be GitHub Actions.
 
