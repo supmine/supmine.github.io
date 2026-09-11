@@ -6,7 +6,9 @@ const root = path.resolve("_site");
 const routes = [
   "index.html",
   "projects/index.html",
+  "experience/index.html",
   "cv/index.html",
+  "repositories/index.html",
   "projects/fisheye-detection/index.html",
   "projects/rainfall-nowcasting/index.html",
   "projects/vehicle-detection/index.html",
@@ -15,7 +17,7 @@ const routes = [
 ];
 for (const route of routes) {
   const html = fs.readFileSync(path.join(root, route), "utf8");
-  assert(!/Albert Einstein|you@example.com|Write your biography|example_pdf|prof_pic.jpg/.test(html), "Demo content in " + route);
+  assert(!/Albert Einstein|you@example.com|Write your biography|example_pdf/.test(html), "Demo content in " + route);
   assert(!html.includes("mine-barnsongkit-resume.pdf"), "Generated resume must not be published in " + route);
   assert(!/\{\{|\{%/.test(html), "Unrendered Liquid in " + route);
   for (const match of html.matchAll(/(?:href|src)=["'](\/[^"']*)["']/g)) {
@@ -33,4 +35,4 @@ const originalResume = "https://docs.google.com/document/d/19I9SDOuQlDn5wYvORsMJ
 assert(cv.includes(originalResume), "CV must link to the original resume");
 assert(fs.readFileSync(path.join(root, "index.html"), "utf8").includes(originalResume), "Home page must link to the original resume");
 assert(!fs.existsSync(path.join(root, "assets/pdf/mine-barnsongkit-resume.pdf")), "Generated resume must not exist in the published site");
-console.log("Verified 8 pages, local links and assets, CV content, and original resume links.");
+console.log("Verified 10 pages, local links and assets, CV content, and original resume links.");

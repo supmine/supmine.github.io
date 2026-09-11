@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
+title: research & projects
 permalink: /projects/
 description: Selected work in computer vision, forecasting, and robot perception.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---

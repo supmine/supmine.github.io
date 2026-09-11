@@ -3,7 +3,14 @@ layout: about
 title: about
 permalink: /
 subtitle: MS Computer Science · <a href="https://www.columbia.edu/">Columbia University</a> · New York
-profile: false
+profile:
+  align: right
+  image: prof_pic.jpg # Original template placeholder; replace with your own photo.
+  image_circular: false
+  more_info: >
+    <p>Columbia University</p>
+    <p>New York, NY</p>
+    <p><a href="mailto:sb5426@columbia.edu">sb5426@columbia.edu</a></p>
 selected_papers: false
 social: true
 announcements:

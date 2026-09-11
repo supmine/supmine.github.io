@@ -6,15 +6,18 @@ Website: https://supmine.github.io
 
 ## Edit the website
 
-| Content                       | File                       |
-| ----------------------------- | -------------------------- |
-| Home and short bio            | \_pages/about.md           |
-| Research & projects overview  | \_pages/projects.md        |
-| Individual projects           | \_projects/\*.md           |
-| CV data                       | assets/json/resume.json    |
-| Original one-page résumé link | resume_url in \_config.yml |
-| Social links                  | \_data/socials.yml         |
-| Site settings                 | \_config.yml               |
+| Content                       | File                                                |
+| ----------------------------- | --------------------------------------------------- |
+| Home and short bio            | \_pages/about.md                                    |
+| Research & projects overview  | \_pages/projects.md                                 |
+| Individual projects           | \_projects/\*.md                                    |
+| Experience                    | \_pages/experience.md                               |
+| Repositories                  | \_pages/repositories.md and \_data/repositories.yml |
+| Profile photo placeholder     | assets/img/prof_pic.jpg                             |
+| CV data                       | assets/json/resume.json                             |
+| Original one-page résumé link | resume_url in \_config.yml                          |
+| Social links                  | \_data/socials.yml                                  |
+| Site settings                 | \_config.yml                                        |
 
 Commit changes to main to rebuild and publish. The GitHub Actions workflow checks formatting, builds Jekyll, verifies internal links and CV content, and deploys through GitHub Pages. In repository Settings → Pages, the source should be GitHub Actions.
 
@@ -22,7 +25,7 @@ The website content is based on the supplied résumé. The original one-page ré
 
 The About page uses al-folio's native about layout, Projects uses the original project-card includes, and the CV page uses the native al_folio_cv renderer. Follow AGENTS.md before editing. Personalization belongs in content and configuration; keep layouts, styling, and runtime behavior in the template's plugins.
 
-To add a headshot, upload your photo to assets/img/ and configure the profile block in \_pages/about.md. To add publications later, populate \_bibliography/papers.bib and create a publications page. The existing demo publication, blog, and news content has been removed.
+The navigation order is About, Experience, Research & Projects, CV, Repositories. The About page uses the original template photo as a placeholder, as requested. Replace assets/img/prof_pic.jpg with your own photo; edit the profile.more_info block in \_pages/about.md to update the address section. To add publications later, populate \_bibliography/papers.bib and create a publications page. The existing demo publication, blog, and news content has been removed.
 
 ## Local development
 
