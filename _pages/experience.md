@@ -20,6 +20,8 @@ Worked on the CLICX mobile banking app at Arise by INFINITAS, a subsidiary of Kr
 
 **Stack:** Go, Kafka, Redis, MongoDB, PostgreSQL, Kubernetes, ArgoCD, Prometheus, Grafana.
 
+[More about my CLICX work]({{ '/experience/clicx/' | relative_url }})
+
 ---
 
 ## Software Engineer Team Lead
@@ -35,6 +37,8 @@ Led software development at a Thai startup building connected, AI-enabled motorc
 
 **Technologies:** Flutter, Android firmware, Bluetooth Classic, BLE, nRF, Secure Boot.
 
+[More about my Protomate experience and product launch]({{ '/experience/protomate/' | relative_url }})
+
 ---
 
 ## Machine Learning Engineer Intern
@@ -43,7 +47,9 @@ Led software development at a Thai startup building connected, AI-enabled motorc
 
 Researched direct object detection in fisheye images for a company building computer-vision products for retail and smart cities. Modified **YOLOv5** with rotation-aware regression to address bounding-box orientation.
 
-[Read about the fisheye detection project]({{ '/projects/fisheye-detection/' | relative_url }})
+Also worked on **object tracking using SORT and Deep SORT** during the internship.
+
+[Read about my detection and tracking work]({{ '/projects/fisheye-detection/' | relative_url }})
 
 ---
 

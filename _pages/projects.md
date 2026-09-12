@@ -2,7 +2,7 @@
 layout: page
 title: research & projects
 permalink: /projects/
-description: Selected work in computer vision, forecasting, and robot perception.
+description: Work, coursework, and personal projects in computer vision, robotics, and computer systems.
 nav: true
 nav_order: 2
 display_categories: [work, fun]

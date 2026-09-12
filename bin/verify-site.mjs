@@ -9,6 +9,9 @@ const routes = [
   "experience/index.html",
   "cv/index.html",
   "repositories/index.html",
+  "experience/clicx/index.html",
+  "experience/protomate/index.html",
+  "projects/ml-lifecycle/index.html",
   "projects/fisheye-detection/index.html",
   "projects/rainfall-nowcasting/index.html",
   "projects/vehicle-detection/index.html",
@@ -45,4 +48,4 @@ assert(home.includes(originalResume), "Home page must link to the original resum
 assert(!fs.existsSync(path.join(root, "assets/pdf/mine-barnsongkit-resume.pdf")), "Generated resume must not exist in the published site");
 const pdf = fs.readFileSync(path.join(root, "assets/pdf/supanart_resume_2026_columbia_draft_rev3.pdf"));
 assert.equal(pdf.subarray(0, 5).toString(), "%PDF-");
-console.log("Verified 10 pages, local links and assets, site content, and original resume PDF.");
+console.log(`Verified ${routes.length} pages, local links and assets, site content, and original resume PDF.`);
