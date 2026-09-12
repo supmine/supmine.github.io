@@ -34,8 +34,4 @@ The following papers provide context for object detection in distorted fisheye i
 
 My implementation focused on modifying YOLOv5 with rotation-aware regression. These references describe related methods; their reported results are not measurements of my implementation.
 
-## References
-
-{% bibliography --cited %}
-
 [All research & projects]({{ '/projects/' | relative_url }})
