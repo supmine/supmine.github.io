@@ -72,7 +72,7 @@ cv:
         summary: Computer-vision products for retail and smart-city applications.
         highlights:
           - Researched object detection in fisheye images without dewarping, addressing lens distortion and varying object orientations.
-          - Modified YOLOv5 with rotation-aware regression to correct bounding-box orientation.
+          - Modified YOLOv7 with rotation-aware regression to correct bounding-box orientation.
 
     Projects:
       - name: Rainfall Nowcasting on Thai DDS Radar Data

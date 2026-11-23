@@ -45,7 +45,7 @@ Led software development at a Thai startup building connected, AI-enabled motorc
 
 **OxygenAI** · Bangkok, Thailand · **June–July 2022**
 
-Researched direct object detection in fisheye images for a company building computer-vision products for retail and smart cities. Modified **YOLOv5** with rotation-aware regression to address bounding-box orientation.
+Researched direct object detection in fisheye images for a company building computer-vision products for retail and smart cities. Modified **YOLOv7** with rotation-aware regression to address bounding-box orientation.
 
 Also worked on **object tracking using SORT and Deep SORT** during the internship.
 
