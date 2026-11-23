@@ -75,6 +75,25 @@ cv:
           - Modified YOLOv7 with rotation-aware regression to correct bounding-box orientation.
 
     Projects:
+      - name: Reinforcement Learning and VLA in Foosball
+        summary: Creative Machines Lab, Columbia University.
+        highlights:
+          - Trained RL agents to play foosball in simulation using NVIDIA Newton and PhysX.
+          - Built an AlphaStar-style league training system combining PPO, self-play, and Policy-Space Response Oracles (PSRO) with a Nash meta-solver to train agents robust to diverse opponent strategies.
+          - Investigated Vision-Language-Action (VLA) models as policies to build an agent that beats human players.
+        start_date: 2026-09
+        end_date: present
+        url: https://supmine.github.io/projects/foosball-rl/
+
+      - name: Optimizing On-Device Language Models for Real-Time Text Translation
+        summary: High Performance Machine Learning, Columbia University.
+        highlights:
+          - Optimized real-time on-device LLM translation with Gemma 4 E2B and LiteRT-LM on a Raspberry Pi 5.
+          - Quantized the unquantized base model with multiple post-training schemes (dynamic-range, INT8, INT4) and benchmarked translation quality, latency, and memory on edge CPU and NVIDIA GPUs.
+        start_date: 2026-09
+        end_date: present
+        url: https://supmine.github.io/projects/on-device-translation/
+
       - name: Rainfall Nowcasting on Thai DDS Radar Data
         summary: A real-time rainfall nowcasting system for Bangkok.
         highlights:
